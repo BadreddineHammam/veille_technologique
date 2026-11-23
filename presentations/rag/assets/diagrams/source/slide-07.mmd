@@ -1,0 +1,5 @@
+%%{init: {"theme":"base","themeVariables":{"background":"#0B132B","primaryColor":"#173451","primaryTextColor":"#F5F7FB","primaryBorderColor":"#78D7FF","lineColor":"#78D7FF","textColor":"#F5F7FB","edgeLabelBackground":"#0B132B","fontFamily":"Segoe UI, Arial, sans-serif","fontSize":"20px"}}}%%
+flowchart LR
+  Q["Return?"] --> Policy["Policy"] --> Found["30 days"] --> Answer["Yes"]
+classDef success fill:#174937,stroke:#49D49A,color:#F5F7FB,stroke-width:2px;
+class Answer success;
